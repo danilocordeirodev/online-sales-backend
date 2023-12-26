@@ -2,9 +2,9 @@ POST  http://localhost:3000/user
 content-type: application/json
 
 {
-    "name": "bdhdh",
+    "name": "sdfxgx",
     "phone": "555555",
-    "email": "sdsds",
+    "email": "fgfgrr5353",
     "password": "123456",
     "cpf": "sdsdsds"
 }
