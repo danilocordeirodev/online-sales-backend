@@ -1,0 +1,15 @@
+POST  http://localhost:3000/user
+content-type: application/json
+
+{
+    "name": "sdfxgx",
+    "phone": "555555",
+    "email": "fgfgrr5353",
+    "password": "123456",
+    "cpf": "sdsdsds"
+}
+
+###
+GET   http://localhost:3000/user
+content-type: application/json
+ 
