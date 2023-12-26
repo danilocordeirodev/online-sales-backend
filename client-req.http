@@ -5,7 +5,8 @@ content-type: application/json
     "name": "bdhdh",
     "phone": "555555",
     "email": "sdsds",
-    "password": "6ttdhdn"
+    "password": "123456",
+    "cpf": "sdsdsds"
 }
 
 ###
