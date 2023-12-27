@@ -17,4 +17,6 @@ content-type: application/json
 GET   http://localhost:3000/state
 content-type: application/json
  
- 
+###
+GET   http://localhost:3000/city/19
+content-type: application/json
