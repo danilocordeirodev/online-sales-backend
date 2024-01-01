@@ -20,7 +20,7 @@ export class AddressController {
   @Roles(UserType.User)
   @UsePipes(ValidationPipe)
   @Post()
-  async createUser(
+  async createAddress(
     @Body() createAddressDto: CreateAddressDto,
     @UserId() userId: number,
   ): Promise<ReturnAddressDto> {
