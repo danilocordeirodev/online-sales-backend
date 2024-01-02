@@ -3,8 +3,8 @@ import { Repository } from 'typeorm';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { CategoryService } from '../category.service';
 import { CategoryEntity } from '../entities/category.entity';
-import { categoryMock } from '../__mock__/category.mock';
-import { createCategoryDtoMock } from '../__mock__/createCategoryDto.mock';
+import { categoryMock } from '../__mocks__/category.mock';
+import { createCategoryDtoMock } from '../__mocks__/createCategoryDto.mock';
 
 describe('CategoryService', () => {
   let service: CategoryService;
